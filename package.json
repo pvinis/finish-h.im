@@ -1,0 +1,11 @@
+{
+	"name": "public",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "tailwindcss -i ./input.css -o ./public/style.css",
+		"build-watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+	},
+	"dependencies": {
+		"tailwindcss": "3.0.16"
+	}
+}
